@@ -8,6 +8,10 @@ namespace tutorialgitMVC.Controllers
 {
     public class HomeController : Controller
     {
+        public ActionResult getname() 
+        {
+            return View();
+        }
         public ActionResult Index()
         {
             ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application.";

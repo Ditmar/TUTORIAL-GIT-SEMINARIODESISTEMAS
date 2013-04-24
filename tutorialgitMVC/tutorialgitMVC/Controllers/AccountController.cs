@@ -20,6 +20,11 @@ namespace tutorialgitMVC.Controllers
         //
         // GET: /Account/Login
 
+        public ActionResult registros() 
+        {
+            return View();
+        }
+
         [AllowAnonymous]
         public ActionResult Login(string returnUrl)
         {
